@@ -51,7 +51,7 @@ python GBERT.py -i input_sample.txt -o output_sample.txt -t 0.1 -id RGNTI3 -n no
 - `language`: язык классификации (всегда содержит 'en')
 - `threshold`:  заданная при классификации минимальная вероятность рубрик
 - `version`:  версия приложения
-- `normalize`:  заданная при классификации нормализация ('all'/'some'/'not')
+- `normalize`:  заданная при классификации нормализация (содержит 'all'/'some'/'not')
 - `correct`: знак валидности (всегда содержит '###')
 
 ## Структура проекта:
@@ -67,6 +67,6 @@ python GBERT.py -i input_sample.txt -o output_sample.txt -t 0.1 -id RGNTI3 -n no
  
  ## Алгоритм классификации:
 
- 
+ ![screenshot](/GBERT_algorithm.png)
 
     

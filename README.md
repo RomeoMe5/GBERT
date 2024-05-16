@@ -7,7 +7,7 @@
  ```bash
 pip install -r requirements.txt
  ```
-2. Скачайте 3 модели BERT по ссылке [здесь](https://huggingface.co/Wilstonio/GBERT_1/tree/main) и поместите их в директорию `/models`.
+2. Скачайте 3 модели BERT по ссылке [здесь](https://huggingface.co/Wilstonio/GBERT_1/tree/main) и поместите их в директорию `/models`, а также замените файлы в директории `/models/mapping` на актуальные
 
 ## Примерная команда для запуска:
 
